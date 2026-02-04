@@ -50,7 +50,6 @@
     'filterQuery': [
       'type:DOCUMENT',
       "wiki:$xcontext.database",
-      "space_exact:$doc.space",
       'class:FAQCode.FAQClass'
     ]
   })

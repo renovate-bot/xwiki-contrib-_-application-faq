@@ -79,7 +79,7 @@
     &lt;form action="$xwiki.getURL($searchDocumentRef)" class="xformInline"&gt;
       &lt;div&gt;
       ## Lucene search needs the $request.space param
-      &lt;input type="hidden" name="space" value="${faqSpace}" /&gt;
+      &lt;input type="hidden" name="f_space_prefix" value="${faqSpace}" /&gt;
       ## Lucene search needs the $request.wikinames param
       &lt;input type="hidden" name="wikinames" value="${xcontext.database}" /&gt;
       ## Both Lucene and SOLR searches obey the $request.text param
